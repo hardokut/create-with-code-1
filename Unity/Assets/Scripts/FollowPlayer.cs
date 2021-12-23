@@ -10,7 +10,7 @@ public class FollowPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -18,5 +18,7 @@ public class FollowPlayer : MonoBehaviour
     {
         // Offset the camera behind the player by adding to the player's position
         transform.position = player.transform.position + offset;
+
     }
+
 }
